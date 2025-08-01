@@ -31,6 +31,13 @@ namespace ADNTesting
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             FillDataGird();
+            FillComboBox();
+        }
+
+        public void FillComboBox()
+        {
+            cbxStatus.ItemsSource = null;
+            cbxStatus.ItemsSource = new List<string> { "PENDING", "CONFIRMED", "COLLECTING_SAMPLE", "RECEIVED", "TESTING", "COMPLETED", "ALL" };
         }
 
         public void FillDataGird()
@@ -71,6 +78,25 @@ namespace ADNTesting
 
             view.selected = selected;
             view.ShowDialog();
+        }
+
+        private void cbxStatus_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (userCurrent == null)
+                return;
+
+            string? status = cbxStatus.SelectedItem?.ToString();
+            var allAppointments = _appointmentService.GetAllAppointments()
+                                                      .Where(x => x.UserId == userCurrent.UserId);
+
+            if (!string.IsNullOrEmpty(status) && status != "ALL")
+            {
+                allAppointments = allAppointments.Where(x => x.Status == status);
+            }
+
+            dgv.ItemsSource = null;
+            dgv.ItemsSource = allAppointments.OrderByDescending(x => x.AppointmentId).ToList();
+            
         }
     }
 }

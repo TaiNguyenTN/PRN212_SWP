@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\viewappointmentdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\viewappointmentdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\feedbackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\feedbackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\viewappointmentdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\viewappointmentdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\feedbackwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\feedbackwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\appointmentbookedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\appointmentbookedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5253F5A0-5B6F-4E30-9E19-16DCE60ECE5A}|DAL\\DAL.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\dal\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5253F5A0-5B6F-4E30-9E19-16DCE60ECE5A}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\managefeedback.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\managefeedback.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +58,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewAppointmentDetail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ViewAppointmentDetail.xaml.cs",
-              "RelativeDocumentMoniker": "ADNTesting\\ViewAppointmentDetail.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ViewAppointmentDetail.xaml.cs",
-              "RelativeToolTip": "ADNTesting\\ViewAppointmentDetail.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FeedbackWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ADNTesting\\FeedbackWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml.cs",
+              "RelativeToolTip": "ADNTesting\\FeedbackWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA6wDIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T13:41:48.598Z",
+              "WhenOpened": "2025-08-01T16:10:53.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewAppointmentDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ViewAppointmentDetail.xaml",
-              "RelativeDocumentMoniker": "ADNTesting\\ViewAppointmentDetail.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ViewAppointmentDetail.xaml",
-              "RelativeToolTip": "ADNTesting\\ViewAppointmentDetail.xaml",
+              "DocumentIndex": 0,
+              "Title": "FeedbackWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml",
+              "RelativeDocumentMoniker": "ADNTesting\\FeedbackWindow.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml",
+              "RelativeToolTip": "ADNTesting\\FeedbackWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-01T13:41:46.021Z",
+              "WhenOpened": "2025-08-01T16:09:57.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageFeedback.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml.cs",
+              "RelativeDocumentMoniker": "ADNTesting\\ManageFeedback.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml.cs",
+              "RelativeToolTip": "ADNTesting\\ManageFeedback.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA6wDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:09:00.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ServiceWindow.xaml",
+              "RelativeDocumentMoniker": "ADNTesting\\ServiceWindow.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ServiceWindow.xaml",
+              "RelativeToolTip": "ADNTesting\\ServiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T15:55:34.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageFeedback.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml",
+              "RelativeDocumentMoniker": "ADNTesting\\ManageFeedback.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml",
+              "RelativeToolTip": "ADNTesting\\ManageFeedback.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T15:24:24.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppointmentBookedWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\AppointmentBookedWindow.xaml",
-              "RelativeDocumentMoniker": "ADNTesting\\AppointmentBookedWindow.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\AppointmentBookedWindow.xaml",
-              "RelativeToolTip": "ADNTesting\\AppointmentBookedWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-01T13:41:31.507Z",
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\Entities\\Feedback.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\Entities\\Feedback.cs",
+              "RelativeToolTip": "DAL\\Entities\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:22:02.657Z",
               "EditorCaption": ""
             }
           ]

@@ -21,6 +21,7 @@ namespace DAL.Repositories
                 .Include(s => s.TestCategories)
                 .Include(s => s.KitComponents)
                     .ThenInclude(kc => kc.SampleTypes)
+                .Include(s => s.Feedbacks)
                 .ToList();
         }
 

@@ -64,5 +64,17 @@ namespace ADNTesting
             bookingWindow.serviceCurrent = selected;
             bookingWindow.ShowDialog();
         }
+
+        private void btnComment_Click(object sender, RoutedEventArgs e)
+        {
+            Service? selected = dgv.SelectedItem as Service;
+            if (selected == null)
+            {
+                MessageBox.Show("Vui lòng chọn dịch vụ để đánh giá!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            ManageFeedback feedback = new(userCurrent, selected);
+            feedback.ShowDialog();
+        }
     }
 }

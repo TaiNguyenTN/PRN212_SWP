@@ -12,6 +12,11 @@ namespace BLL.Services
     {
         private ServiceRepository service = new();
 
+        public List<Feedback> GetAllFeedbacksByService(long serviceId)
+        {
+            return service.GetAll().FirstOrDefault(s => s.ServiceId == serviceId)?.Feedbacks.ToList() ?? new List<Feedback>();
+        }
+
         public List<Service> GetAllService()
         {
             return service.GetAll();

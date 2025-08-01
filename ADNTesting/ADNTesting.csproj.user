@@ -14,7 +14,13 @@
     <Compile Update="DetailServiceWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FeedbackWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageFeedback.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ManageServiceWindow.xaml.cs">
