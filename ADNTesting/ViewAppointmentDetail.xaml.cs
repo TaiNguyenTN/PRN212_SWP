@@ -31,6 +31,7 @@ namespace ADNTesting
             txtFullName.IsEnabled = false;
             dpDob.IsEnabled = false;
             txtPhone.IsEnabled = false;
+            txtEmail.IsEnabled = false;
             txtProvince.IsEnabled = false;
             txtDistrict.IsEnabled = false;
             txtTestPurpose.IsEnabled = false;
