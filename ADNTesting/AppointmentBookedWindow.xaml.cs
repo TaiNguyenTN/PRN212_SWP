@@ -35,7 +35,7 @@ namespace ADNTesting
 
         public void FillDataGird()
         {
-            if(userCurrent != null)
+            if (userCurrent != null)
             {
                 dgv.ItemsSource = null;
                 dgv.ItemsSource = _appointmentService.GetAllAppointments()
