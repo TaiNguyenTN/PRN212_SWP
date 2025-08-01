@@ -18,6 +18,8 @@ namespace DAL.Repositories
             return _context.Services
                 .Include(s => s.ServiceTestPurposes)
                     .ThenInclude(stp => stp.TestPurpose)
+                .Include(s => s.TestCategories)
+                .Include(s => s.KitComponents)
                 .ToList();
         }
 

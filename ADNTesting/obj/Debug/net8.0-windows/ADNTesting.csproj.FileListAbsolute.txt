@@ -87,3 +87,6 @@ C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai
 C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\ServiceWindow.baml
 C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\DetailBookingWindow.g.cs
 C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\DetailBookingWindow.baml
+C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\ADNTesting.sourcelink.json
+C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\AppointmentBookedWindow.g.cs
+C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\obj\Debug\net8.0-windows\AppointmentBookedWindow.baml

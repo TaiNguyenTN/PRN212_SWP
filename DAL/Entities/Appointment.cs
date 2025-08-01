@@ -49,6 +49,9 @@ public partial class Appointment
 
     public bool IsActive { get; set; }
 
+    public string? FirstResultFile => Results?.FirstOrDefault()?.ResultFile;
+
+
     public virtual ICollection<CollectedSample> CollectedSamples { get; set; } = new List<CollectedSample>();
 
     public virtual Guest? Guest { get; set; }

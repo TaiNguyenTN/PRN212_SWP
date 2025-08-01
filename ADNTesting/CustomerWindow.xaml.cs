@@ -37,5 +37,19 @@ namespace ADNTesting
         {
             Application.Current.Shutdown();
         }
+
+        private void btBooking_Click(object sender, RoutedEventArgs e)
+        {
+            DetailBookingWindow bookingWindow = new DetailBookingWindow();
+            bookingWindow.userCurrent = userCurrent;
+            bookingWindow.ShowDialog();
+        }
+
+        private void btnTrackingOrder_Click(object sender, RoutedEventArgs e)
+        {
+            AppointmentBookedWindow appointmentBookedWindow = new AppointmentBookedWindow();
+            appointmentBookedWindow.userCurrent = userCurrent;
+            appointmentBookedWindow.ShowDialog();
+        }
     }
 }

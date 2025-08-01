@@ -1,0 +1,29 @@
+﻿<Window x:Class="ADNTesting.AppointmentBookedWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADNTesting"
+        mc:Ignorable="d"
+        Title="AppointmentBookedWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Theo dõi đơn" HorizontalAlignment="Left" Height="60" Margin="272,23,0,0" VerticalAlignment="Top" Width="235" FontSize="35"/>
+        <DataGrid x:Name="dgv" HorizontalAlignment="Left" Height="224" Margin="38,178,0,0" VerticalAlignment="Top" Width="600" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã đơn" Binding="{Binding AppointmentId}" Width="60"/>
+                <DataGridTextColumn Header="Họ và tên" Binding="{Binding FullName}" Width="100"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="60"/>
+                <DataGridTextColumn Header="Số điện thoại" Binding="{Binding Phone}" Width="100"/>
+                <DataGridTextColumn Header="Dịch vụ" Binding="{Binding ServiceType}" Width="*"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="100"/>
+                <DataGridTextColumn Header="Kết quả" Binding="{Binding FirstResultFile}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="33" Margin="22,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="411,88,0,0" VerticalAlignment="Top" Width="98" Height="36" Click="btnSearch_Click"/>
+        <Button x:Name="btnViewDetail" Content="Xem chi tiết" HorizontalAlignment="Left" Margin="679,181,0,0" VerticalAlignment="Top" Width="98" Height="36"/>
+        <Button x:Name="btnQuit" Content="Quay lại" HorizontalAlignment="Left" Margin="679,256,0,0" VerticalAlignment="Top" Width="98" Height="36" Click="btnQuit_Click"/>
+
+
+    </Grid>
+</Window>
