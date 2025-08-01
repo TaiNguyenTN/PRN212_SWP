@@ -58,5 +58,19 @@ namespace ADNTesting
         {
             this.Close();
         }
+
+        private void btnViewDetail_Click(object sender, RoutedEventArgs e)
+        {
+            ViewAppointmentDetail view = new();
+            Appointment? selected = dgv.SelectedItem as Appointment;
+            if(selected == null)
+            {
+                MessageBox.Show("Hãy chọn một cuộc hẹn để xem chi tiết!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            view.selected = selected;
+            view.ShowDialog();
+        }
     }
 }

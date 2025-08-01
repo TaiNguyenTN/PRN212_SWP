@@ -47,6 +47,21 @@ namespace ADNTesting
             FillComboBoxKitComponent();
         }
 
+        public void FillComboBoxSampleType()
+        {
+            var selectedKit = cbxKitComponent.SelectedItem as KitComponent;
+            if (selectedKit != null)
+            {
+                cbxSampleType.ItemsSource = selectedKit.SampleTypes.ToList();
+                cbxSampleType.DisplayMemberPath = "Name";
+                cbxSampleType.SelectedValuePath = "Id"; // Use "Id" as per your SampleType class
+            }
+            else
+            {
+                cbxSampleType.ItemsSource = null;
+            }
+        }
+
         public void FillComboBoxKitComponent()
         {
             var selectedService = cbxServiceType.SelectedItem as Service;
@@ -230,6 +245,21 @@ namespace ADNTesting
             x.AppointmentDate = dpAppointmentDate.SelectedDate ?? DateTime.Now;
             x.UserId = userCurrent?.UserId;
 
+
+            // Thêm CollectedSample với SampleType
+            var collectedSamples = new List<CollectedSample>();
+            if (cbxSampleType.SelectedValue != null)
+            {
+                collectedSamples.Add(new CollectedSample
+                {
+                    SampleTypeId = Convert.ToInt64(cbxSampleType.SelectedValue)
+                    // Có thể gán thêm các trường khác nếu cần
+                });
+            }
+            x.CollectedSamples = collectedSamples;
+
+
+
             MessageBox.Show("Đặt lịch hẹn thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             _appointmentService.AddAppointment(x);
             this.Close();
@@ -353,6 +383,11 @@ namespace ADNTesting
             FillComboBoxTestPurpose();
             FillComboBoxTestCategory();
             FillComboBoxKitComponent();
+        }
+
+        private void cbxKitComponent_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            FillComboBoxSampleType();
         }
     }
 }

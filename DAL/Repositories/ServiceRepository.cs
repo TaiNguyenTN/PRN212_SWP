@@ -20,6 +20,7 @@ namespace DAL.Repositories
                     .ThenInclude(stp => stp.TestPurpose)
                 .Include(s => s.TestCategories)
                 .Include(s => s.KitComponents)
+                    .ThenInclude(kc => kc.SampleTypes)
                 .ToList();
         }
 

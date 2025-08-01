@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Lenovo\OneDrive\Desktop\Practice Exam\PE\Ass02\ADNTesting_NguyenQuocTai\ADNTesting\App.xaml
-92004020574
+10391529693
 
-121860457384
+13-1440788154
 236218568396
-AppointmentBookedWindow.xaml;CustomerWindow.xaml;DetailBookingWindow.xaml;DetailServiceWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageServiceWindow.xaml;RegisterWindow.xaml;ServiceWindow.xaml;
+AppointmentBookedWindow.xaml;CustomerWindow.xaml;DetailBookingWindow.xaml;DetailServiceWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageServiceWindow.xaml;RegisterWindow.xaml;ServiceWindow.xaml;ViewAppointmentDetail.xaml;
 
 False
 

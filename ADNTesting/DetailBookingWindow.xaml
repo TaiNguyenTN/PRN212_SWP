@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="DetailBookingWindow" Height="500" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Label Content="Đăng kí lịch hẹn" HorizontalAlignment="Left" Height="44" Margin="329,10,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Đăng kí lịch hẹn" HorizontalAlignment="Left" Height="44" Margin="300,10,0,0" VerticalAlignment="Top" Width="254" FontSize="30"/>
         <Label Content="Họ và tên" HorizontalAlignment="Left" Height="34" Margin="38,72,0,0" VerticalAlignment="Top" Width="89"/>
         <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Height="34" Margin="148,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" TabIndex="1"/>
         <Label Content="Ngày sinh" HorizontalAlignment="Left" Height="34" Margin="38,131,0,0" VerticalAlignment="Top" Width="89"/>
@@ -33,10 +33,10 @@
         <Label Content="Địa điểm lấy mẫu" HorizontalAlignment="Left" Height="34" Margin="361,290,0,0" VerticalAlignment="Top" Width="109"/>
         <ComboBox x:Name="cbxTestAddress" HorizontalAlignment="Left" Height="34" Margin="495,292,0,0" VerticalAlignment="Top" Width="120" TabIndex="12"/>
         <Label Content="Bộ kit xét nghiệm" HorizontalAlignment="Left" Height="34" Margin="361,345,0,0" VerticalAlignment="Top" Width="109"/>
-        <ComboBox x:Name="cbxKitComponent" HorizontalAlignment="Left" Height="34" Margin="495,347,0,0" VerticalAlignment="Top" Width="120" TabIndex="13"/>
+        <ComboBox x:Name="cbxKitComponent" HorizontalAlignment="Left" Height="34" Margin="495,347,0,0" VerticalAlignment="Top" Width="120" TabIndex="13" SelectionChanged="cbxKitComponent_SelectionChanged"/>
         <Label Content="Loại mẫu" HorizontalAlignment="Left" Height="34" Margin="361,402,0,0" VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="txtSampleType" HorizontalAlignment="Left" Height="34" Margin="495,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="14"/>
         <Button x:Name="btnBooking" Content="Đăng kí" HorizontalAlignment="Left" Height="38" Margin="674,162,0,0" VerticalAlignment="Top" Width="105" Click="btnBooking_Click"/>
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="38" Margin="674,255,0,0" VerticalAlignment="Top" Width="105" Click="btnCancel_Click"/>
+        <Button x:Name="btnCancel" Content="Quay lại" HorizontalAlignment="Left" Height="38" Margin="674,255,0,0" VerticalAlignment="Top" Width="105" Click="btnCancel_Click"/>
+        <ComboBox x:Name="cbxSampleType" HorizontalAlignment="Left" Height="34" Margin="495,402,0,0" VerticalAlignment="Top" Width="120" TabIndex="14"/>
     </Grid>
 </Window>

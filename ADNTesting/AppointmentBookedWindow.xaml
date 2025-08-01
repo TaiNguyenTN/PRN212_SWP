@@ -21,7 +21,7 @@
         </DataGrid>
         <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="33" Margin="22,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
         <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="411,88,0,0" VerticalAlignment="Top" Width="98" Height="36" Click="btnSearch_Click"/>
-        <Button x:Name="btnViewDetail" Content="Xem chi tiết" HorizontalAlignment="Left" Margin="679,181,0,0" VerticalAlignment="Top" Width="98" Height="36"/>
+        <Button x:Name="btnViewDetail" Content="Xem chi tiết" HorizontalAlignment="Left" Margin="679,181,0,0" VerticalAlignment="Top" Width="98" Height="36" Click="btnViewDetail_Click"/>
         <Button x:Name="btnQuit" Content="Quay lại" HorizontalAlignment="Left" Margin="679,256,0,0" VerticalAlignment="Top" Width="98" Height="36" Click="btnQuit_Click"/>
 
 

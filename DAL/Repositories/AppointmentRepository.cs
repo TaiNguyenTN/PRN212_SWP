@@ -24,6 +24,9 @@ namespace DAL.Repositories
             _context = new();
             return _context.Appointments
                 .Include(x => x.Results)
+                .Include(x => x.KitComponent)
+                .Include(x => x.CollectedSamples)
+                    .ThenInclude(cs => cs.SampleType)
                 .ToList();
         }
 
