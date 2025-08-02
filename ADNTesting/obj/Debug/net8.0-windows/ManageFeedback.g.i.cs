@@ -77,7 +77,7 @@ namespace ADNTesting {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ADNTesting;V1.0.0.0;component/managefeedback.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ADNTesting;component/managefeedback.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ManageFeedback.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

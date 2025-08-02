@@ -101,7 +101,7 @@ namespace ADNTesting {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ADNTesting;V1.0.0.0;component/servicewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ADNTesting;component/servicewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ServiceWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
