@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ADNTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9760e343cc903ed71c00fdcd2f46f0ef44a3d6a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c67a3c435597ffb3667680e171dc19a51e93b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ADNTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ADNTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\feedbackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\feedbackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5253F5A0-5B6F-4E30-9E19-16DCE60ECE5A}|DAL\\DAL.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\dal\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5253F5A0-5B6F-4E30-9E19-16DCE60ECE5A}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|solutionrelative:adntesting\\managefeedback.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75FE3451-87C1-4F33-991D-1F540BAEF933}|ADNTesting\\ADNTesting.csproj|c:\\users\\lenovo\\onedrive\\desktop\\practice exam\\pe\\ass02\\adntesting_nguyenquoctai\\adntesting\\managefeedback.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FeedbackWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml.cs",
               "RelativeDocumentMoniker": "ADNTesting\\FeedbackWindow.xaml.cs",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FeedbackWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\FeedbackWindow.xaml",
               "RelativeDocumentMoniker": "ADNTesting\\FeedbackWindow.xaml",
@@ -83,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ManageFeedback.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml.cs",
               "RelativeDocumentMoniker": "ADNTesting\\ManageFeedback.xaml.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\ADNTesting\\ManageFeedback.xaml.cs",
               "RelativeToolTip": "ADNTesting\\ManageFeedback.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA6wDAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T16:09:00.116Z",
               "EditorCaption": ""
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Feedback.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\Entities\\Feedback.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Feedback.cs",
