@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\DAL.csproj": {}
+    "E:\\SWP391_Group03\\PRN212_SWP\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\DAL.csproj": {
+    "E:\\SWP391_Group03\\PRN212_SWP\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\SWP391_Group03\\PRN212_SWP\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Practice Exam\\PE\\Ass02\\ADNTesting_NguyenQuocTai\\DAL\\obj\\",
+        "projectPath": "E:\\SWP391_Group03\\PRN212_SWP\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\VINH\\.nuget\\packages\\",
+        "outputPath": "E:\\SWP391_Group03\\PRN212_SWP\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
