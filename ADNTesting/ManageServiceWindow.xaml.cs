@@ -21,6 +21,7 @@ namespace ADNTesting
     /// </summary>
     public partial class ManageServiceWindow : Window
     {
+        public User userCurrent { get; set; }
         private ADNService _service = new();
         public ManageServiceWindow()
         {

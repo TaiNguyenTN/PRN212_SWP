@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ADNTesting"
         mc:Ignorable="d"
-        Title="CustomerWindow" Height="450" Width="800">
+        Title="CustomerWindow" Height="450" Width="800" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="Register" Content="Dịch vụ" HorizontalAlignment="Left" Height="36" Margin="28,66,0,0" VerticalAlignment="Top" Width="96" Click="Register_Click"/>
+        <Button x:Name="Register" Content="Dịch vụ" HorizontalAlignment="Left" Height="36" Margin="123,64,0,0" VerticalAlignment="Top" Width="96" Click="Register_Click"/>
         <Button x:Name="Quit" Content="Quit" HorizontalAlignment="Left" Height="72" Margin="273,332,0,0" VerticalAlignment="Top" Width="221" Click="Quit_Click"/>
-        <Label Content="Hello Customer, Welcome back" HorizontalAlignment="Left" Height="37" Margin="28,10,0,0" VerticalAlignment="Top" Width="191"/>
-        <Button x:Name="btBooking" Content="Đăng kí" HorizontalAlignment="Left" Height="36" Margin="178,66,0,0" VerticalAlignment="Top" Width="96" Click="btBooking_Click"/>
-        <Button x:Name="btnTrackingOrder" Content="Theo dõi đơn" HorizontalAlignment="Left" Height="36" Margin="317,66,0,0" VerticalAlignment="Top" Width="96" Click="btnTrackingOrder_Click"/>
+        <Label x:Name="lbl" Content="Hello Customer, Welcome back" HorizontalAlignment="Left" Height="37" Margin="28,10,0,0" VerticalAlignment="Top" Width="191"/>
+        <Button x:Name="btBooking" Content="Đăng kí" HorizontalAlignment="Left" Height="36" Margin="336,64,0,0" VerticalAlignment="Top" Width="96" Click="btBooking_Click"/>
+        <Button x:Name="btnTrackingOrder" Content="Theo dõi đơn" HorizontalAlignment="Left" Height="36" Margin="548,64,0,0" VerticalAlignment="Top" Width="96" Click="btnTrackingOrder_Click"/>
 
     </Grid>
 </Window>

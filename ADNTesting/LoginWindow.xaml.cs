@@ -42,10 +42,21 @@ namespace ADNTesting
                 return;
             }
 
-            CustomerWindow customerWindow = new();
-            customerWindow.userCurrent = user;
-            customerWindow.Show();
-            this.Hide();
+            if(user.Role.ToLower() == "Customer".ToLower())
+            {
+                CustomerWindow customerWindow = new();
+                customerWindow.userCurrent = user;
+                customerWindow.Show();
+                this.Hide();
+            }
+
+            if(user.Role.ToLower() == "Manager".ToLower())
+            {
+                ManagerWindow managerWindow = new();
+                managerWindow.userCurrent = user;
+                managerWindow.Show();
+                this.Hide();
+            }
         }
 
         private void btnQuit_Click(object sender, RoutedEventArgs e)

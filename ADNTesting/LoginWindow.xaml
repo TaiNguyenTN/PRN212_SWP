@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ADNTesting"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
+        Title="LoginWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="LOGIN" HorizontalAlignment="Left" Height="54" Margin="332,10,0,0" VerticalAlignment="Top" Width="190" FontSize="35"/>
         <Label Content="Tên đăng nhập" HorizontalAlignment="Left" Height="40" Margin="239,97,0,0" VerticalAlignment="Top" Width="126" FontSize="15"/>

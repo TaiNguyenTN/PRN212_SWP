@@ -24,5 +24,11 @@ namespace DAL.Repositories
             _context = new();
             return _context.Users.FirstOrDefault(u => u.Username.ToLower().Equals(username.ToLower()) && u.Password == password);
         }
+
+        public bool checkEmailExist(string email)
+        {
+            _context = new();
+            return _context.Users.Any(u => u.Email.ToLower().Equals(email.ToLower()));
+        }
     }
 }

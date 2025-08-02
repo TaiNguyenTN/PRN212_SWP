@@ -1,0 +1,17 @@
+﻿<Window x:Class="ADNTesting.ManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADNTesting"
+        mc:Ignorable="d"
+        Title="ManagerWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="MANAGER" HorizontalAlignment="Left" Height="54" Margin="332,10,0,0" VerticalAlignment="Top" Width="190" FontSize="35"/>
+        <Button x:Name="btnAppointment" Content="Quản lý đơn" HorizontalAlignment="Left" Height="43" Margin="276,79,0,0" VerticalAlignment="Top" Width="108" TabIndex="3" Click="btnAppointment_Click"/>
+        <Button x:Name="btnService" Content="Quản lý dịch vụ" HorizontalAlignment="Left" Height="43" Margin="421,82,0,0" VerticalAlignment="Top" Width="110" TabIndex="3" Click="btnService_Click"/>
+        <Button x:Name="btnReport" Content="Xem báo cáo" HorizontalAlignment="Left" Height="43" Margin="133,79,0,0" VerticalAlignment="Top" Width="108" TabIndex="3" Click="btnReport_Click"/>
+        <Button x:Name="btnQuit" Content="Quay lại" HorizontalAlignment="Left" Margin="566,82,0,0" VerticalAlignment="Top" Width="98" Height="43" Click="btnQuit_Click"/>
+
+    </Grid>
+</Window>

@@ -21,5 +21,10 @@ namespace BLL.Services
         {
             return _userRepository.GetAuthen(username, password);
         }
+
+        public bool CheckEmailExist(string email)
+        {
+            return _userRepository.checkEmailExist(email);
+        }
     }
 }

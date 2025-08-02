@@ -51,5 +51,10 @@ namespace ADNTesting
             appointmentBookedWindow.userCurrent = userCurrent;
             appointmentBookedWindow.ShowDialog();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            lbl.Content = "Xin chào, " + userCurrent.FullName + "!";
+        }
     }
 }
